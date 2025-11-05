@@ -1,0 +1,29 @@
+{
+  "config": {
+    "processed_dir": "data",
+    "max_samples": 2000,
+    "validation_split": 0.2,
+    "random_state": 42,
+    "max_length": 96,
+    "batch_size": 64,
+    "epochs": 3,
+    "learning_rate": 0.001,
+    "weight_decay": 0.0001,
+    "embedding_dim": 96,
+    "feedforward_dim": 256,
+    "num_heads": 2,
+    "num_layers": 1,
+    "dropout": 0.2
+  },
+  "metrics": {
+    "accuracy": 0.77,
+    "precision": 0.863013698630137,
+    "recall": 0.6363636363636364,
+    "f1": 0.7325581395348837,
+    "specificity": 0.900990099009901,
+    "val_loss": 0.49461337566375735,
+    "train_loss": 0.4135854959487915,
+    "train_accuracy": 0.821875
+  },
+  "model_path": "artifacts/run-2025-11-05_03-38-44/baseline_model.pt"
+}
